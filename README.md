@@ -1,7 +1,8 @@
 # Solarized Seti UI
 
 
-A solarized colored UI theme for Atom based on seti-ui and designed to work with solarized-dark-syntax.
+A solarized version of seti-ui designed to work with solarized-dark-syntax in atom.
+Note: This ui doesn't work well with file-icons enabled.
 
 
 ![Screenshot](https://github.com/wwmyers/solarized-seti-ui/raw/master/screenshot.png)
@@ -49,6 +50,8 @@ git clone https://github.com/wwmyers/solarized-seti-ui --depth=1
 * YML
 
 ### Credits
+Thanks to Jesse Weed for sharing and creating the awesome seti-ui! Just thought it'd be great to have the color scheme of seti-ui to work better with solarized-dark-syntax.
+
 wwmyers
 
 thedouglenz
