@@ -47,3 +47,8 @@ git clone https://github.com/wwmyers/solarized-seti-ui --depth=1
 * Typescript
 * XML
 * YML
+
+### Credits
+wwmyers
+
+thedouglenz
