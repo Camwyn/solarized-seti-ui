@@ -1,4 +1,4 @@
-# Seti UI
+# Solarized Seti UI
 
 
 A solarized colored UI theme for Atom based on seti-ui and designed to work with solarized-dark-syntax.
