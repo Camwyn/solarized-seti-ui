@@ -10,11 +10,17 @@
 
 // Base Colors
 @blue: rgb(79,153,211);
+@aqua: #2AA198;
+@medaqua: #259088;
+@darkaqua: #218079;
+@lightteal: #0C3543;
+@darkteal: #042B37;
+@sblue: #268BD2;
 @green: rgb(159,202,86);
 @yellow: rgb(220,205,105);
 @red: rgb(206,64,69);
 @purple: rgb(160,116,196);
-@background: rgb(21,23,24);
+@background: @darkteal;
 @text: #aaa;
 
 @ui-site-color-1: @blue;
@@ -28,14 +34,14 @@
 @text-color-warning: @yellow;
 @text-color-error: @red;
 
-@background-color-info: @blue;
+@background-color-info: @aqua;
 @background-color-success: @green;
 @background-color-warning: @yellow;
 @background-color-error: @red;
 @background-color-highlight: rgba(255,255,255,0.2);
 @background-color-selected: @blue;
 
-@app-background-color: @background;
+@app-background-color: @lightteal;
 
 
 
@@ -52,20 +58,20 @@
 
 
 // BUTTONS
-@button-background-color: lighten(#000, 30%);
+@button-background-color: @sblue;
 @button-text-color: #fff;
 @button-background-color-hover: lighten(@button-background-color, 5%);
-@button-background-color-selected: #5c6064;
+@button-background-color-selected: @aqua;
 @button-border-color: @base-border-color;
 
 
 // CHECKBOXES
-@checkbox-background-color: @blue;
+@checkbox-background-color: @aqua;
 @checkbox-tick-color: #fff;
 
 
 // TREE VIEW / SIDEBAR
-@tree-view-background-color: rgb(16,17,18);
+@tree-view-background-color: @darkteal;
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: rgba(42, 42, 42, 0.5);
@@ -86,8 +92,8 @@
 
 
 // PANELS
-@panel-bg: rgb(16,17,18);
-@panel-border: #000;
+@panel-bg: @darkteal;
+@panel-border: @darkteal;
 
 // TABS
 @tab-height: 40px;
@@ -96,7 +102,7 @@
 @tab-top-padding: 0px;
 @tab-bottom-border-height: 0px;
 @tab-highlight-color: @blue;
-@tab-background: #333;
+@tab-background: @lightteal;
 @tab-background-color: #333;
 @tab-background-active: @background;
 @tab-background-color-active: #222;
@@ -110,7 +116,7 @@
 
 // MISC
 @base-background-color: lighten(@tool-panel-background-color, 5%);
-@base-border-color: rgba(0, 0, 0, 0.5);
+@base-border-color: @lightteal;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: rgba(0, 0, 0, 0.5);

@@ -1,10 +1,19 @@
 @import "ui-variables";
 
 .settings-view {
+  .package-card, .package-card.deprecated {
+	background-color: @lightteal;
+  }
+
+  .package-card:hover {
+	border: 1px solid @aqua;
+	background-color: @lightteal;
+  }
 
   select.form-control {
     border: none;
     color: @text-color-selected;
+	background-color: @lightteal;
   }
 
   input[type="checkbox"] {
@@ -27,4 +36,7 @@
     color: lighten(@text-color-subtle, 10%);
   }
 
+  .alert-info {
+	background-color: @lightteal;
+  }
 }
