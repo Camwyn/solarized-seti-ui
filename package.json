@@ -1,7 +1,7 @@
 {
   "name": "solarized-seti-ui",
   "theme": "ui",
-  "version": "7.0.2",
+  "version": "0.7.3",
   "description": "A solarized colored UI theme for Atom based on seti-ui and designed to work with solarized-dark-syntax.",
   "license": "MIT",
   "repository": "https://github.com/wwmyers/solarized-seti-ui",
