@@ -2,7 +2,6 @@
 
 
 A solarized version of seti-ui designed to work with solarized-dark-syntax in atom.
-Note: This ui doesn't work well with file-icons enabled.
 
 
 ![Screenshot](https://github.com/wwmyers/solarized-seti-ui/raw/master/screenshot.png)
